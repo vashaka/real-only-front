@@ -145,15 +145,19 @@ span.text-red {
 .product-card {
   border-radius: 15px;
   transform: scale(1, 1);
-  transition: transform 0.5s ease;
+  /* transition: transform 0.5s ease; */
   color: #324d67;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* border: 2px solid #ededed; */
   /* padding-bottom: 15px; */
   padding: 5px;
 }
 .product-card:hover {
-  transform: scale(1.1, 1.1);
+  /* transform: scale(1.1, 1.1); */
+}
+
+.product-card img {
+  /* cursor: pointer; */
 }
 .product-image {
   /* width: 210px;
@@ -225,6 +229,7 @@ span.text-red {
 }
 
 .btn-primary {
+
   border-radius: 5px;
   padding: 6px 16px;
   /* background-color: white; */
@@ -241,11 +246,32 @@ span.text-red {
 }
 
 .btn-primary:hover {
-  /* background-color: #f02d34; */
-  /* transform: scale(1.2); */
+  background-color: hsl(209, 35%, 45%);
 
-  /* color: white; */
-  /* border: 1px solid #f02d34; */
+
+}
+
+.btn-secondary {
+
+  border-radius: 5px;
+  padding: 6px 16px;
+  /* background-color: white; */
+  color: white;
+  border: 1px solid #f02d34;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 10000 !important;
+  transition: 0.2s ease-in-out;
+  /* color: black; */
+  background-color: #f02d34;
+}
+
+
+.btn-secondary:hover {
+  background-color: hsl(358, 87%, 41%);
+
 }
 
 .hero-banner-container h3 {
