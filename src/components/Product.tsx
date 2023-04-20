@@ -89,10 +89,7 @@ const Product = ({
         }}
       >
         <Link href={`/clothes/${slug?.current}`}>
-          <button
-            className="btn-primary"
-            style={{ marginTop: "10px", marginRight: "5px" }}
-          >
+          <button className="btn-primary" style={{ marginTop: "10px" }}>
             დეტალურად
           </button>
         </Link>
